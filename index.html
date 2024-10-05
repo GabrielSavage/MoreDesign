@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>More CSS Positioning</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+
+    <div class="red-circle">
+        <h3 class="white-text">This div is position static, which is the default position, all
+            items start in this left hand corner and the next item with a static 
+            or default position will start under this div.
+        </h3>
+    </div>
+
+    <div class="green-circle">
+        <div class="lilac-circle"></div>
+        <h3 class="white-text">This div is positioned relative to its original static spot on the left,
+            under the red div and has had bottom and left px added to push it into the space it occupies.
+        </h3>
+
+       
+    </div>
+
+    <div class="lilac-circle">
+        <h3 class="white-text">This div is positioned absolute to its original static spot on the left,
+            under the green div and has had bottom and left px added to push it into the space it occupies.
+        </h3>
+    </div>
+
+
+    <h3 class="white-text1">This h3 has is an explanation for the lilac circle disappearing in the right top 
+        corner. That div has an absolute position inside the green div.
+    </h3>
+
+    <div class="square-div1">
+                   <div class="square-div2">
+
+                               <div class="square-div3">
+
+                                        <h2 class="white-text2">All of these squares are nested inside each other.
+                                            With all the squares having a relative position to each other.
+                                        </h2>
+
+                               </div>
+                   </div>
+
+
+    </div>
+
+
+
+    
+    <h3 class="white-text3">This h3 has a margin of 20% to push it away from all these boxes, otherwise it will display
+        behind the boxes, you will have to open it as a web page to see, it may not show where it is positioned in code editor.
+        However, when reducing the size of the screen it could still disappear behind the above boxes.
+    </h3>
+
+
+    <div class="square-div1">
+        <div class="square-div2">
+
+                    <div class="square-div3">
+
+                             <h2 class="white-text2">All of these squares are nested inside each other.
+                                 With all the squares having a relative position to each other.
+                             </h2>
+
+                             
+
+                    </div>
+        </div>
+
+
+</div>
+
+
+    <div class="square-div1">
+        <div class="square-div2">
+
+                     <div class="square-div3">
+
+                        <h2 class="white-text2">These are the same 3 squares and now the position of the first 
+                           lilac box is the normal starting position directly after the last static box which 
+                           was the 1st lilac one.
+                        </h2>
+                        <h3 class="white-text4">This h3 is nested inside the last bluey box. It has a position relative 
+                            to the bluey div it is in with adjustments for width, bottom, left, etc... This one does not disappear
+                            behind any boxes if screen size is reduced.
+                        </h3>
+
+                    </div>
+         </div>
+
+</div>
+  
+
+   
+
+
+  
+
+  
+    
+</body>
+</html>

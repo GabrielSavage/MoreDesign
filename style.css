@@ -1,0 +1,109 @@
+
+
+
+
+            .red-circle {
+      width: 300px;
+      height: 300px;
+      background-color: red;
+      border-radius: 50%;
+      position: static;
+      top: 150px;
+      left: 250px;
+    }
+
+    .green-circle {
+      width: 300px;
+      height: 300px;
+      background-color:rgb(61, 123, 88);
+      border-radius: 50%;
+      position: relative;
+      bottom: 150px;
+      left: 250px;
+    }
+
+    .lilac-circle {
+      width: 300px;
+      height: 300px;
+      background-color: rgb(194, 109, 194);
+      border-radius: 50%;
+      position: absolute;
+      bottom: 400px;
+      left: 600px;
+    }
+
+    .square-div1 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(194, 109, 194);
+    }
+
+    .square-div2 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(109, 194, 130);
+        position:relative;
+        top: 100px;
+        left: 100px;
+      
+        
+    }
+
+    .square-div3 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(108, 108, 200);
+        position:relative;
+        top: 100px;
+        left: 100px;
+      
+        
+    }
+
+
+ 
+    .white-text {
+    color: white;
+    text-align: center;
+    padding: 20%;
+    padding-top: 25%;
+   
+}
+
+.white-text1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    
+   
+}
+
+.white-text2 {
+    color: white;
+    text-align: center;
+   padding: 5%;
+   padding-top: 25%;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+.white-text3 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20%;
+}
+
+.white-text4 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    position:relative;
+    bottom: 150px;
+    left: 600px;
+    width: 500px;
+}
+
+
